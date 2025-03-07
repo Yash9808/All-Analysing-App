@@ -57,4 +57,4 @@ with col2:
 
 # Footer
 st.markdown("---")
-st.markdown('<p style="text-align: center;">Made with ❤️ for Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
+st.markdown('<p style="text-align: center;"> 🧠 Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
