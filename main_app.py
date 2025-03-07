@@ -1,42 +1,53 @@
 import streamlit as st
 
 # Custom Page Configuration
-st.set_page_config(page_title="Chartwell Data Analysis", page_icon="📊", layout="centered")
+st.set_page_config(page_title="Chartwell Data Analysis", page_icon="📊", layout="wide")
 
-# Custom CSS for styling
-st.markdown("""
+# Background GIF URL (Using the RAW GitHub Link)
+background_gif_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/Working.gif"
+
+# Custom CSS for setting the GIF as a background
+st.markdown(f"""
     <style>
-        body {
-            background-color: #f5f5f5;
-        }
-        .title {
-            font-size: 2.2em;
+        body {{
+            background: url('{background_gif_url}') no-repeat center center fixed;
+            background-size: cover;
+        }}
+        .title {{
+            font-size: 2.5em;
             font-weight: bold;
             text-align: center;
-            color: #4A90E2;
-        }
-        .subtitle {
-            font-size: 1.3em;
+            color: white;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+        }}
+        .subtitle {{
+            font-size: 1.5em;
             text-align: center;
-            color: #333;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
             margin-bottom: 20px;
-        }
-        .button {
+        }}
+        .button {{
             width: 100%;
             display: inline-block;
             padding: 15px;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: bold;
             text-align: center;
-            background-color: #4A90E2;
+            background-color: rgba(0, 102, 204, 0.8);
             color: white;
-            border-radius: 10px;
+            border-radius: 12px;
             text-decoration: none;
             transition: 0.3s;
-        }
-        .button:hover {
-            background-color: #357ABD;
-        }
+        }}
+        .button:hover {{
+            background-color: rgba(0, 82, 164, 0.9);
+        }}
+        .footer {{
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }}
     </style>
 """, unsafe_allow_html=True)
 
@@ -57,4 +68,4 @@ with col2:
 
 # Footer
 st.markdown("---")
-st.markdown('<p style="text-align: center;"> 🧠 Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
+st.markdown('<p class="footer">Made with ❤️ for Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
