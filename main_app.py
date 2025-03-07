@@ -3,14 +3,14 @@ import streamlit as st
 # Custom Page Configuration
 st.set_page_config(page_title="Chartwell Data Analysis", page_icon="📊", layout="wide")
 
-# Correct Background GIF URL (check if hosted on GitHub, Imgur, or Cloudinary)
-background_gif_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/Working.gif"  # Replace with your URL if needed
+# Use the raw GitHub image URL (updated to your image)
+background_image_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/pic1.JPG"
 
-# Custom CSS to use GIF as background
+# Custom CSS to use the image as the background
 st.markdown(f"""
     <style>
         body {{
-            background: url('{background_gif_url}') no-repeat center center fixed;
+            background: url('{background_image_url}') no-repeat center center fixed;
             background-size: cover;
             margin: 0;
             padding: 0;
