@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Main Streamlit App")
+st.title(" ALL APPs For Analsysing Data- For Chartwell Hospital")
 
 st.write("Click below to open one of the apps:")
 
