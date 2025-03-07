@@ -77,7 +77,7 @@ with col3:
 
 # MRI Image and Report Analysis Button
 with col4:
-    st.markdown('<a class="button" href="https://example.com/mri_report_analysis">🩻 MRI Image & Report Analysis</a>', unsafe_allow_html=True)
+    st.markdown('<a class="button" href="https://example.com/mri_report_analysis">🧲🔍MRI Image & Report Analysis</a>', unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
