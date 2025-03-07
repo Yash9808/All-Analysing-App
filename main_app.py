@@ -3,8 +3,8 @@ import streamlit as st
 # Custom Page Configuration
 st.set_page_config(page_title="Chartwell Data Analysis", page_icon="📊", layout="wide")
 
-# Correct Background GIF URL (using the raw GitHub link)
-background_gif_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/Working.gif"
+# Correct Background GIF URL (check if hosted on GitHub, Imgur, or Cloudinary)
+background_gif_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/Working.gif"  # Replace with your URL if needed
 
 # Custom CSS to use GIF as background
 st.markdown(f"""
@@ -12,6 +12,8 @@ st.markdown(f"""
         body {{
             background: url('{background_gif_url}') no-repeat center center fixed;
             background-size: cover;
+            margin: 0;
+            padding: 0;
         }}
         .title {{
             font-size: 2.5em;
@@ -68,4 +70,4 @@ with col2:
 
 # Footer
 st.markdown("---")
-st.markdown('<p class="footer"> Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
+st.markdown('<p class="footer">Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
