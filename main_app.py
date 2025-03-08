@@ -4,9 +4,9 @@ import streamlit as st
 st.set_page_config(page_title="Chartwell Data Analysis", page_icon="📊", layout="wide")
 
 # Use the raw GitHub image URL for the background
-background_image_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/Working.gif"
+background_image_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/pic1.JPG"
 
-# Custom CSS to set the background image correctly
+# Custom CSS to set the background image correctly and make buttons black
 st.markdown(f"""
     <style>
         .stApp {{
@@ -34,7 +34,7 @@ st.markdown(f"""
             font-size: 18px;
             font-weight: bold;
             text-align: center;
-            background-color: rgba(0, 102, 204, 0.8);
+            background-color: black;  /* 🖤 BLACK BUTTON */
             color: white;
             border-radius: 12px;
             text-decoration: none;
@@ -42,7 +42,7 @@ st.markdown(f"""
             transition: 0.3s;
         }}
         .button:hover {{
-            background-color: rgba(0, 82, 164, 0.9);
+            background-color: #333;  /* Dark Gray on Hover */
         }}
         .footer {{
             text-align: center;
