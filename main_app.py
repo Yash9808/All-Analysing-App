@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Chartwell Data Analysis", page_icon="📊", layout="wide")
 
 # Use the raw GitHub image URL for the background
-background_image_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/pic1.JPG"
+background_image_url = "https://raw.githubusercontent.com/Yash9808/All-Analysing-App/main/Working.gif"
 
 # Custom CSS to set the background image correctly
 st.markdown(f"""
