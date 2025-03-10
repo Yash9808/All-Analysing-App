@@ -86,6 +86,13 @@ col5 = st.columns(1)[0]  # Create a new single column for the 5th button
 with col5:
     st.markdown('<a class="button" href="https://jp9zpznwvcgepujrtq2dwk.streamlit.app/">🧲 Advance ALL MRI</a>', unsafe_allow_html=True)
 
+# Fourth Row for the 6th Button (TFP login and analysis)
+col6 = st.columns(1)[0]  # Create a new single column for the 6th button
+
+# 6th Button: TFP login and analysis
+with col6:
+    st.markdown('<a class="button" href="https://mqywxe55fiwrjmcrsy7fdh.streamlit.app/">🔐 TFP Login and Analysis</a>', unsafe_allow_html=True)
+
 # Footer
 st.markdown("---")
 #st.markdown('<p class="footer">Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
