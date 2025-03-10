@@ -88,7 +88,7 @@ with col5:
 
 # 6th Button: TFP login and analysis
 with col6:
-    st.markdown('<a class="button" href="https://mqywxe55fiwrjmcrsy7fdh.streamlit.app/">🔐 TFP Login and Analysis</a>', unsafe_allow_html=True)
+    st.markdown('<a class="button" href="https://mqywxe55fiwrjmcrsy7fdh.streamlit.app/">🔐 FTP Login and Analysis</a>', unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
