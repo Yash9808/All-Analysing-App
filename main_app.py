@@ -79,15 +79,12 @@ with col3:
 with col4:
     st.markdown('<a class="button" href="https://xiurkqcwncuxtdt28yv9db.streamlit.app/">🧲🔍MRI Image & Report Analysis</a>', unsafe_allow_html=True)
 
-# Third Row for the New 5th Button
-col5 = st.columns(1)[0]  # Create a new single column for the 5th button
+# Third Row for the New 5th and 6th Buttons (next to each other)
+col5, col6 = st.columns(2)  # Create two columns for buttons 5 and 6
 
 # 5th Button: Advance ALL MRI
 with col5:
     st.markdown('<a class="button" href="https://jp9zpznwvcgepujrtq2dwk.streamlit.app/">🧲 Advance ALL MRI</a>', unsafe_allow_html=True)
-
-# Fourth Row for the 6th Button (TFP login and analysis)
-col6 = st.columns(1)[0]  # Create a new single column for the 6th button
 
 # 6th Button: TFP login and analysis
 with col6:
