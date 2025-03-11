@@ -73,7 +73,7 @@ col3, col4 = st.columns(2)
 
 # ML Analysis Button
 with col3:
-    st.markdown('<a class="button" href="https://example.com/ml_analysis">🧠 ML Analysis</a>', unsafe_allow_html=True)
+    st.markdown('<a class="button" href="https://n8uxyzcvs8b6inirclre8v.streamlit.app/">🧠 ML Analysis</a>', unsafe_allow_html=True)
 
 # MRI Image and Report Analysis Button
 with col4:
