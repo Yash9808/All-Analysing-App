@@ -76,15 +76,15 @@ with col3:
     st.markdown('<a class="button" href="https://n8uxyzcvs8b6inirclre8v.streamlit.app/">🧠 ML Analysis</a>', unsafe_allow_html=True)
 
 # MRI Image and Report Analysis Button
-with col4:
-    st.markdown('<a class="button" href="https://xiurkqcwncuxtdt28yv9db.streamlit.app/">🧲🔍MRI Image & Report Analysis</a>', unsafe_allow_html=True)
+#with col4:
+    #st.markdown('<a class="button" href="https://xiurkqcwncuxtdt28yv9db.streamlit.app/">🧲🔍MRI Image & Report Analysis</a>', unsafe_allow_html=True)
 
 # Third Row for the New 5th and 6th Buttons (next to each other)
 col5, col6 = st.columns(2)  # Create two columns for buttons 5 and 6
 
 # 5th Button: Advance ALL MRI
-with col5:
-    st.markdown('<a class="button" href="https://jp9zpznwvcgepujrtq2dwk.streamlit.app/">🧲 Advance ALL MRI</a>', unsafe_allow_html=True)
+#with col5:
+    #st.markdown('<a class="button" href="https://jp9zpznwvcgepujrtq2dwk.streamlit.app/">🧲 Advance ALL MRI</a>', unsafe_allow_html=True)
 
 # 6th Button: TFP login and analysis
 with col6:
