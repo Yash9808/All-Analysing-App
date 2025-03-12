@@ -92,4 +92,4 @@ with col6:
 
 # Footer
 st.markdown("---")
-#st.markdown('<p class="footer">Chartwell Hospital | Powered by Streamlit</p>', unsafe_allow_html=True)
+st.markdown('<p class="footer"> Chartwell Hospital App Version 1 </p>', unsafe_allow_html=True)
